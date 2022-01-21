@@ -1,0 +1,16 @@
+<table class="table table-sm">
+  <tr *ngFor="let p of personaService.list">
+    <td>{{ p.nombre }}</td>
+    <td>{{ p.apellido }}</td>
+    <td>
+      <i  class="far fa fa-edit fa-lg text-info"
+          style="cursor: pointer;"
+          (click)="editar(p)"></i>
+    </td>
+    <td>
+      <i  class="far fa fa-trash fa-lg text-danger"
+          style="cursor: pointer;"
+          (click)="eliminarPersona(p.id)"></i>
+    </td>
+  </tr>
+</table>

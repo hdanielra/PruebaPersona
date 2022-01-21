@@ -1,0 +1,30 @@
+/* You can add global styles to this file, and also import other style files */
+.footer {
+  text-align: center;
+  font-size: small;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* un evento de angular en el input y una propiedad de angular  */
+input.ng-touched.ng-invalid {
+  border-color: red;
+}
+
+
+input.ng-valid {
+  border-color: green;
+}
+
+.green-icon {
+  color: green;
+}
+
+.red-icon {
+  color: red;
+}
+
+.btn {
+  width: 100%;
+}

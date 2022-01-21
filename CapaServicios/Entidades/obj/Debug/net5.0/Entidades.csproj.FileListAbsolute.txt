@@ -1,0 +1,12 @@
+D:\1 Trabajo\2022\Entrevistas\six degree\CapaServicios\Entidades\bin\Debug\net5.0\Entidades.deps.json
+D:\1 Trabajo\2022\Entrevistas\six degree\CapaServicios\Entidades\bin\Debug\net5.0\Entidades.dll
+D:\1 Trabajo\2022\Entrevistas\six degree\CapaServicios\Entidades\bin\Debug\net5.0\ref\Entidades.dll
+D:\1 Trabajo\2022\Entrevistas\six degree\CapaServicios\Entidades\bin\Debug\net5.0\Entidades.pdb
+D:\1 Trabajo\2022\Entrevistas\six degree\CapaServicios\Entidades\obj\Debug\net5.0\Entidades.csproj.AssemblyReference.cache
+D:\1 Trabajo\2022\Entrevistas\six degree\CapaServicios\Entidades\obj\Debug\net5.0\Entidades.GeneratedMSBuildEditorConfig.editorconfig
+D:\1 Trabajo\2022\Entrevistas\six degree\CapaServicios\Entidades\obj\Debug\net5.0\Entidades.AssemblyInfoInputs.cache
+D:\1 Trabajo\2022\Entrevistas\six degree\CapaServicios\Entidades\obj\Debug\net5.0\Entidades.AssemblyInfo.cs
+D:\1 Trabajo\2022\Entrevistas\six degree\CapaServicios\Entidades\obj\Debug\net5.0\Entidades.csproj.CoreCompileInputs.cache
+D:\1 Trabajo\2022\Entrevistas\six degree\CapaServicios\Entidades\obj\Debug\net5.0\Entidades.dll
+D:\1 Trabajo\2022\Entrevistas\six degree\CapaServicios\Entidades\obj\Debug\net5.0\ref\Entidades.dll
+D:\1 Trabajo\2022\Entrevistas\six degree\CapaServicios\Entidades\obj\Debug\net5.0\Entidades.pdb

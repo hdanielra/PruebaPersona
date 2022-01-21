@@ -1,0 +1,72 @@
+
+<form [formGroup]="form" (ngSubmit)="guardarPersona()" >
+
+  <!-- °°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°° -->
+  <div class="form-group">
+    <div class="input-group">
+
+      <!-- ---------------------------------------------------------------------------------------- -->
+      <div class="input-group-prepend input-group-text bg-white d-block">
+        <!-- <div class="input-group-text bg-white d-block"> -->
+
+          <i class="fas fa-user-circle "
+          [class.green-icon]="this.form.get('nombre').valid"
+          [class.red-icon]="this.form.get('nombre').invalid && this.form.get('nombre').touched "
+          ></i>
+
+        <!-- </div> -->
+      </div>
+       <!-- ---------------------------------------------------------------------------------------- -->
+
+      <!-- ---------------------------------------------------------------------------------------- -->
+      <input type="text" class="form-control" formControlName="nombre" placeholder="Nombre"  maxlength="100">
+      <!-- ---------------------------------------------------------------------------------------- -->
+    </div>
+  </div>
+  <!-- °°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°° -->
+
+
+
+
+  <br>
+
+  <!-- °°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°° -->
+  <div class="form-group">
+    <div class="input-group">
+
+      <!-- ---------------------------------------------------------------------------------------- -->
+      <div class="input-group-prepend">
+        <div class="input-group-text bg-white d-block">
+
+          <i class="fas fa-credit-card "
+          [class.green-icon]="this.form.get('apellido').valid"
+          [class.red-icon]="this.form.get('apellido').invalid && this.form.get('apellido').touched "
+          ></i>
+
+        </div>
+      </div>
+      <!-- ---------------------------------------------------------------------------------------- -->
+
+      <!-- ---------------------------------------------------------------------------------------- -->
+      <input type="text" class="form-control" formControlName="apellido" placeholder="Apellido" maxlength="100">
+      <!-- ---------------------------------------------------------------------------------------- -->
+    </div>
+  </div>
+  <!-- °°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°° -->
+
+
+
+  <br>
+
+
+
+
+  <div class="form-group">
+    <!-- si el formulario es inválido -> deshabilite el botón -->
+    <button class="btn btn-success btn-lg btn-block" [disabled]="form.invalid" type="submit">
+      <i class="fa fa-database"></i>
+      Aceptar
+    </button>
+  </div>
+
+</form>
